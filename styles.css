@@ -103,12 +103,13 @@ nav .right a span{
 .hero-section .headshot{
     flex: 2;
     display: flex;
-    justify-content: right;
+    justify-content: flex-end;
 }
 
 .hero-section .headshot img{
     border-radius: 50%;
     width: 350px;
+    max-width: 100%;
 }
 
 /* SECTION 2: SKILLS */
@@ -220,7 +221,13 @@ nav .right a span{
     /* SECTION 1: HERO */
     .hero-section {
         flex-direction: column-reverse;
+        align-items: center;
+        gap: 20px; 
     } 
+
+    .hero-section .headshot {
+        justify-content: center; 
+    }
     
     .hero-section .headshot{
         width: 300px;
@@ -260,6 +267,10 @@ nav .right a span{
 
     .hero-section .text h2{
         font-size: 30px;
+    }
+
+    .hero-section .headshot img{
+        width: 250px;                     
     }
 
     /* SECTION 2: SKILLS */
