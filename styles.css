@@ -177,7 +177,8 @@ nav .right a:last-child:hover i {
     align-items: center;
     gap: 10px;
 
-    width: 200px;
+    width: 280px;
+    height: 55px;    
     padding: 10px 20px;
     margin: 10px;
     border: 1.5px solid;
@@ -189,6 +190,11 @@ nav .right a:last-child:hover i {
     height: 30px;
     object-fit: contain;
     border-radius: 2px;
+}
+
+.skills-section .cells .cell:nth-child(6) img {
+    width: 50px;
+    height: 50px;
 }
 
 .skills-section .cells .cell span{
@@ -294,7 +300,7 @@ nav .right a:last-child:hover i {
     }
 
     nav .right a:last-child{
-        color: var(--text-color);
+        color: var(--primary-color);
         background-color: transparent;
         padding: 0;
     }
@@ -302,6 +308,17 @@ nav .right a:last-child:hover i {
     nav .right a span{
         display: none;
         
+    }
+    nav .right a:last-child:hover {
+        width: auto;
+    }
+
+    nav .right a:last-child:hover span,
+    nav .right a:last-child:hover i {
+        opacity: 1 !important;
+        transform: none !important;
+        position: relative !important;
+        right: auto !important;
     }
 
     /* SECTION1: HERO */
