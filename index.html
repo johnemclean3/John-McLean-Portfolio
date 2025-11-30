@@ -1,178 +1,204 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="description" content="John McLean — student developer portfolio" />
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet" />
 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- Icons -->
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+    integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  />
 
-    <link rel="stylesheet" href="styles.css">
-
-    <title>Portfolio</title>
+  <link rel="stylesheet" href="styles.css" />
+  <title>John McLean — Portfolio</title>
 </head>
+<!-- navbar -->
 <body>
+  <header>
+    <nav aria-label="Primary navigation">
+      <div class="left">
+        <a href="https://johnemclean3.github.io/John-McLean-Portfolio/">John McLean</a>
+      </div>
 
-    <!-- NAVBAR-->
-     <nav>
-        <div class="left">
-            <a href="https://johnemclean3.github.io/John-McLean-Portfolio/">John McLean</a>
+      <ul class="right" role="menubar">
+        <li role="none">
+          <a role="menuitem" href="#skills">
+            <i class="fa-solid fa-code" aria-hidden="true"></i>
+            <span>Skills</span>
+          </a>
+        </li>
+        <li role="none">
+          <a role="menuitem" href="#contact">
+            <i class="fa-solid fa-envelope" aria-hidden="true"></i>
+            <span>Contact</span>
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <!-- HERO -->
+    <section class="hero-section" aria-labelledby="hero-heading">
+      <div class="text">
+        <h1 id="hero-heading">Hi, I'm John</h1>
+
+        <p>
+          I'm a developer who enjoys solving problems and building practical, clean software.
+          I’m currently studying computer science at the University of Nebraska–Lincoln.
+          I enjoy learning new technologies, solving problems, and bringing my ideas to life through code.
+          This portfolio showcases projects I’ve built so far and the skills I’m developing as I continue to grow as a programmer.
+        </p>
+
+        <div class="links" aria-label="Social and contact links">
+          <a
+            href="https://github.com/johnemclean3"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Open GitHub (new tab)"
+          >
+            <i class="fa-brands fa-github" aria-hidden="true"></i>
+            <span>GitHub</span>
+          </a>
+
+          <a
+            href="https://www.linkedin.com/in/john-mclean-00a767392/"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Open LinkedIn (new tab)"
+          >
+            <i class="fa-brands fa-linkedin" aria-hidden="true"></i>
+            <span>LinkedIn</span>
+          </a>
+
+          <a href="mailto:johnemclean3@icloud.com" aria-label="Send email">
+            <i class="fa-solid fa-envelope" aria-hidden="true"></i>
+            <span>Email</span>
+          </a>
         </div>
-        <div class="right">
-            <a href="https://github.com/johnemclean3" target="_blank" rel="noopener noreferrer"> 
-                <i class="fa-brands fa-github"></i> 
-                <span>Github</span>
-            </a>
+      </div>
 
-            <a href="https://www.linkedin.com/in/john-mclean-00a767392/" target="_blank" rel="noopener noreferrer"> 
-                <i class="fa-brands fa-linkedin"></i> 
-                <span>Linkedin</span>
-            </a>
-          <div class="email-wrapper">
-            <a href="mailto:johnemclean3@icloud.com"> 
-                <i class="fa-solid fa-envelope"></i> 
-                <span>Email</span>
-            </a>
-          </div>
+      <figure class="headshot" aria-hidden="false">
+        <img src="images/IMG_4975.webp" alt="John McLean headshot" width="350" />
+      </figure>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills" class="skills-section" aria-labelledby="skills-heading">
+      <h2 id="skills-heading">Skills</h2>
+
+      <p class="intro">
+        I work with a range of frontend and backend technologies and enjoy building responsive,
+        user-friendly websites. These are some tools and languages I’ve gained experience with through
+        school projects and personal development.
+      </p>
+
+      <ul class="cells" role="list">
+        <li class="cell">
+          <img src="images/csharp-logo.png" alt="C# logo" />
+          <span>C#</span>
+        </li>
+
+        <li class="cell">
+          <img src="images/css-logo.webp" alt="CSS logo" />
+          <span>CSS</span>
+        </li>
+
+        <li class="cell">
+          <img src="images/html-logo.webp" alt="HTML logo" />
+          <span>HTML</span>
+        </li>
+
+        <li class="cell">
+          <img src="images/javascript-logo.webp" alt="JavaScript logo" />
+          <span>JavaScript</span>
+        </li>
+
+        <li class="cell">
+          <img src="images/react-logo.webp" alt="React logo" />
+          <span>React + TypeScript</span>
+        </li>
+
+        <li class="cell">
+          <img src="images/Python-logo.png" alt="Python logo" />
+          <span>Python</span>
+        </li>
+      </ul>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="contact-section" aria-labelledby="contact-heading">
+      <h2 id="contact-heading">Contact</h2>
+
+      <div class="group">
+        <div class="text">
+          <p>
+            Thank you for taking the time to view my portfolio. If you’d like more information about my work
+            or have any inquiries, please feel free to reach out using the form or the email link above. I look forward to hearing from you!
+          </p>
         </div>
-     </nav>
 
-     <main>
-        <!--section 1 (hero)-->
-        <section class="hero-section">
-            <div class="text">
-                <h2>Hi, i'm John</h2>
-                
-                <p>
-                I'm a developer who enjoys solving problems and building practical, clean software. 
-                I’m currently studying computer science at the University of Nebraska–Lincoln. 
-                I enjoy learning new technologies, solving problems, and bringing my ideas to life through code. 
-                This portfolio showcases the projects I’ve built so far and the skills I’m developing as I continue to grow as a programmer.
-                </p>
-                
-                <div class="links">
-                    <a href="#skills">
-                        <i class="fa-solid fa-code"></i>
-                        <span>Skills</span> 
-                    </a>
+        <form id="contact-form" aria-label="Contact form">
+          <label for="name">Name</label>
+          <input id="name" name="name" type="text" required />
 
-                    <a href="#contact">
-                        <i class="fa-solid fa-envelope"></i>
-                        <span>Contact</span> 
-                    </a>
-                </div>
-            </div>
+          <label for="email">Email</label>
+          <input id="email" name="email" type="email" required />
 
-            <div class="headshot">
-                <img src="images/IMG_4975.webp" alt="">
-            </div>
-        </section>
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="6" required></textarea>
 
-        <!--section 2 (skills)-->
-        <section id="skills" class="skills-section">
-            <h2>Skills</h2>
-            <div class="text">
-                I work with a range of frontend and backend technologies and enjoy building responsive, 
-                user-friendly websites. These are some of the tools and languages I’ve gained experience 
-                with through school projects and personal development.
-            </div>
+          <button type="submit">Send Message</button>
+        </form>
+      </div>
+    </section>
+  </main>
 
-            <div class="cells">
-                <div class="cell">
-                    <img src="images/csharp-logo.png" alt="csharp logo">
-                    <span>C#</span>
-                </div>
+  <script>
+    (function () {
+      const form = document.getElementById('contact-form');
 
-                <div class="cell">
-                    <img src="images/css-logo.webp" alt="CSS logo">
-                    <span>CSS</span>
-                </div>
+      if (!form) return;
 
-                <div class="cell">
-                    <img src="images/html-logo.webp" alt="HTML logo">
-                    <span>HTML</span>
-                </div>
+      form.addEventListener('submit', async (e) => {
+        e.preventDefault();
 
-                <div class="cell">
-                    <img src="images/javascript-logo.webp" alt="JavaScript logo">
-                    <span>JavaScript</span>
-                </div>
-                
-                <div class="cell">
-                    <img src="images/react-logo.webp" alt="React logo">
-                    <span>React + TypeScript</span>
-                </div>
-                
-                <div class="cell">
-                  <img src="images/Python-logo.png" alt="Python logo">
-                  <span>Python</span>
-                </div>
-            </div>
-        </section>
+        const data = {
+          name: form.name.value,
+          email: form.email.value,
+          message: form.message.value
+        };
 
-       <!-- SECTION 4: Contact -->
-<section id="contact" class="contact-section">
-  <h2>Contact</h2>
+        try {
+          const response = await fetch('https://formspree.io/f/mdkvgbyb', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json', Accept: 'application/json' },
+            body: JSON.stringify(data)
+          });
 
-  <div class="group">
-    <div class="text">
-      Thank you for taking the time to view my portfolio. If you’d like more information about my work 
-      or have any inquiries, please feel free to reach out using the form below or by selecting 
-      the email button in the corner. I look forward to hearing from you!
-    </div>
+          const result = await response.json();
 
-    <form id="contact-form">
-      <label for="name">Name</label>
-      <input type="text" id="name" name="name" required>
-
-      <label for="email">Email</label>
-      <input type="email" id="email" name="email" required>
-
-      <label for="message">Message</label>
-      <textarea id="message" name="message" cols="30" rows="10" required></textarea>
-
-      <button type="submit">Send Message</button>
-    </form>
-  </div>
-</section>
-     </main>
-     <script>
-const form = document.getElementById('contact-form');
-
-form.addEventListener('submit', async (e) => {
-  e.preventDefault();
-
-  const data = {
-    name: form.name.value,
-    email: form.email.value,
-    message: form.message.value
-  };
-
-  try {
-    const response = await fetch('https://formspree.io/f/mdkvgbyb', {
-      method: 'POST',
-      headers: {
-        'Content-Type': 'application/json',
-        'Accept': 'application/json'
-      },
-      body: JSON.stringify(data)
-    });
-
-    const result = await response.json();
-
-    if (response.ok) {
-      alert('Message sent successfully!');
-      form.reset();
-    } else {
-      alert('Error sending message: ' + (result.error || 'Unknown error'));
-    }
-  } catch (err) {
-    alert('Error sending message: ' + err);
-  }
-});
-</script>
+          if (response.ok) {
+            alert('Message sent successfully!');
+            form.reset();
+          } else {
+            alert('Error sending message: ' + (result.error || 'Unknown error'));
+          }
+        } catch (err) {
+          alert('Error sending message: ' + err);
+        }
+      });
+    })();
+  </script>
 </body>
 </html>
